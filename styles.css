@@ -94,3 +94,11 @@ input::placeholder{
 .js-toDoList li button:hover{
   cursor: pointer;
 }
+
+.js-weather{
+  position :absolute;
+  top: 0;
+  right:0;
+  padding: 10px;
+  font-size: 20px;
+}

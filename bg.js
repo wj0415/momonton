@@ -4,7 +4,6 @@ const IMG_NUMBER = 3;
 
 function handleImgLoad()
 {
-    console.log("finished loading");
     body.appendChild(image);
 }
 function paintImage(imgNumber){
