@@ -1,0 +1,96 @@
+@import "reset.css"; 
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.form,
+.greetings,
+.toDoForm {
+  display: none;
+}
+.showing {
+  display: block;
+  animation: fadeIn 0.5s linear;
+}
+
+.js-clock{
+
+}
+.js-clock h1{
+    font-size: 80px;
+    
+}
+
+.js-name-form,
+.greetings{
+  font-size: 60px;
+  margin: 50px 0px 30px 0px;
+}
+
+
+input:focus {
+  outline: 0;
+}
+
+input {
+  font-size: 30px;
+  border: none;
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+  background-color: transparent;
+  color: whitesmoke;
+  padding: 20px 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+}
+
+input::placeholder{
+  color:whitesmoke;
+}
+
+.bgImage{
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.js-toDoList{
+  
+}
+.js-toDoList li{
+  font-size: 26px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.js-toDoList li button{
+  background-color: transparent;
+  margin-left: 10px;
+  outline:0;
+  border:none;
+
+}
+
+.js-toDoList li button:hover{
+  cursor: pointer;
+}
