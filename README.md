@@ -1,5 +1,5 @@
 # Momonton
-A clone of chrome app Momontum on Vanilla JS
+A clone of chrome app Momentum on Vanilla JS
 
 ## Features
 - [] Clock
